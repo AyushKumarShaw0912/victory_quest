@@ -1,13 +1,11 @@
-
+import Login from "./Components/LoginSignin/Login";
 
 function App() {
-  
-
   return (
-    <>
-     Welcome to victory quest
-    </>
-  )
+    <dev>
+      <Login />
+    </dev>
+  );
 }
 
-export default App
+export default App;

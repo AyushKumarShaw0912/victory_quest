@@ -1,0 +1,65 @@
+.container {
+  width: 420px;
+  background: linear-gradient(yellow, black);
+  padding: 30px 40px;
+  border-radius: 20px;
+}
+
+.container .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: #8c90f2;
+  outline: none;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  font-size: 16px;
+  color: whi;
+  padding: 20px 45px 20px 20px;
+}
+.container .forgot-password {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  margin: 4px;
+  padding: 10px;
+}
+.forgot-password a {
+  color: #efe9e9;
+  text-decoration: none;
+}
+
+.container button {
+  width: 87px;
+  height: 27px;
+  border-radius: 13px;
+  color: white;
+  outline: black;
+  background: #8c90f2;
+  font-size: 14.5px;
+  cursor: pointer;
+  font-weight: 700;
+  margin: 10px 125px;
+}
+.container .regester-link {
+  font-size: 14px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+.regester-link p {
+  color: white;
+}
+.regester-link p a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.regester-link p a:hover {
+  text-decoration: underline;
+}
